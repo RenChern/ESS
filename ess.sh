@@ -15,4 +15,4 @@ rm -rf /root/.essencecore/chainstate
 rm -rf /root/.essencecore/peers.dat
 wget -q http://whatmasternode.com/peers.dat
 mv peers.dat /root/.essencecore/
-Essence -daemon
+essenced -daemon
